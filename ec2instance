@@ -1,0 +1,16 @@
+{
+    "AWSTemplateFormatVersion": "2010-09-09",
+    "Description": "creating Ec2 instance",
+    "Resources":{
+      "EC@instance":{
+          "Type": "AWS::EC2::Instance",
+          "Properties":{
+              "InstanceType": "t2.micro",
+              "KeyName": "sowjiarha",
+              "ImageId": "ami-0c339b13c07e5542e",
+              "AvailabilityZone": "ap-southeast-1a"
+          }
+      }
+    }
+    
+} 
