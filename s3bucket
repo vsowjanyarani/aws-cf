@@ -1,0 +1,13 @@
+{
+    "AWSTemplateFormatVersion": "2010-09-09",
+    "Description": "creating s3 bucket",
+    "Resources": {
+      "bucketmy": {
+          "Type": "AWS::S3::Bucket",
+          "Properties": {
+              "BucketName": "arhabucket"
+          },
+      }
+    }
+    
+}
